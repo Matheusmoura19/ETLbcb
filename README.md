@@ -23,7 +23,7 @@ O que ela faz:
 * Monta a URL de requisição com base no parâmetro data, que representa o trimestre desejado (ex: "20191").
 * Realiza uma requisição HTTP para a API do Banco Central.
 * Converte a resposta JSON em um DataFrame do Pandas, facilitando a manipulação e análise dos dados.
-* Converte a coluna datatrimestre para o tipo datetime, padronizando a formatação temporal.
+* Converte a coluna datatrimestre para o tipo datetime, padronizando a formatação temporal e assim evitando problemas possíveis com o banco de dados por exemplo.
 
 ### 💾 Conversão de Formato
 ~~~~python
